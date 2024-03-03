@@ -1,0 +1,89 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  
+#logo{
+
+    font-size: 1.2rem;
+}
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    z-index: 100;
+}
+a:hover {
+    background-color: #EEDBF7;
+    color: black;
+  }
+  #images img{
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(48, 48, 48, 0.7);
+    border-radius: 10px;
+  }
+  #images{
+    transition: all 0.7s;
+  }
+  #images:hover {
+    transform: scale(1.03);
+    /* z-index: 2; */
+}
+#project-section, #about-section, #contact-section, #location-section{
+width: 97%;
+margin: 0 auto;
+}
+#hero-section{
+    background-image: linear-gradient(rgba(31, 30, 30, 0.3), rgba(0, 0, 0, 0.3)),
+        url(../assets/images/architect.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom center;
+}
+#br-text{
+    padding: 8px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#arc-text{
+    letter-spacing: 0.2rem;
+}
+.about-section img{
+    filter: grayscale(80%);
+    box-shadow: 0 2px 4px 0 rgba(48, 48, 48, 0.7);
+    border-top-left-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+iframe{
+    box-shadow: 0 2px 4px 0 rgba(48, 48, 48, 0.7);
+}
+@media screen and (max-width:574px) {
+    #hero-section {
+      height: 60vh;
+      background-position: bottom;
+    }
+    iframe{
+        height: 60vh;
+
+    }
+  }
