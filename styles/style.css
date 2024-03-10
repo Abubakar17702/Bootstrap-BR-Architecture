@@ -1,34 +1,7 @@
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-  
-#logo{
-
-    font-size: 1.2rem;
-}
 header{
-    position: sticky;
-    top: 0;
-    left: 0;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
-    z-index: 100;
 }
+#navbarSupportedContent
 a:hover {
     background-color: #EEDBF7;
     color: black;
@@ -43,7 +16,6 @@ a:hover {
   }
   #images:hover {
     transform: scale(1.03);
-    /* z-index: 2; */
 }
 #project-section, #about-section, #contact-section, #location-section{
 width: 97%;
@@ -57,13 +29,6 @@ margin: 0 auto;
     background-size: cover;
     background-attachment: fixed;
     background-position: bottom center;
-}
-#br-text{
-    padding: 8px 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-#arc-text{
-    letter-spacing: 0.2rem;
 }
 .about-section img{
     filter: grayscale(80%);
@@ -81,9 +46,5 @@ iframe{
     #hero-section {
       height: 60vh;
       background-position: bottom;
-    }
-    iframe{
-        height: 60vh;
-
     }
   }
